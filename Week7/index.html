@@ -8,18 +8,23 @@
         <h1 align="center" style="color:#6e6e6e">WEATHER FORCAST TODAY..</h1>
 	<body>
         <h2 align="center" style="color:#FFF">Choose Your City Weather..</h2>
+        <!--city class used in the API open weather map that which links the api when data is fetched to display on html with three city clickable buttons-->
 		<div class="city">
 			<a href="#" class="button-link">Bangkok</a>
 			<a href="#" class="button-link">London</a>
 			<a href="#" class="button-link">Abuja</a>
 			
 		</div>
+		<!-- container div id that links with the function in .js to convert celsius/fahrenhiet with the class "convert"-->
 		<div id="container"></div>
 		<div class="convert">
+			<!-- clickable buttons with id "celsius/fahrenheit" that allow when click to city and button converts either degree values.-->
 			<button id="celsius" class="celsiusfahrenheit-link">Celsius</button>
 			<button id="fahrenheit" class="celsiusfahrenheit-link">Fahrenheit</button>
 		</div>
 	</body>
+	<!-- connection with jquery-->
 	<script src="js/jquery.min.js"></script>
+	<!-- connection with app.js -->
 	<script src="js/app.js"></script>
 </html>

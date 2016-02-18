@@ -19,20 +19,14 @@ body {
 }
 .city {
     position: center;
-   /* right: 100px;
-    width: 400px;*/
-   /* border: 5px solid #83acca;*/
+  
     padding: 10px;
     text-align: center;
     text-decoration: none;
 
 }
 
-/*.convert {
-    position: left;
-    text-align: center;
-    text-decoration: none;
-}*/
+
 
 .button-link {
     padding: 10px 15px;
